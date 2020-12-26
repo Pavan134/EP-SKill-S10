@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>
+            Demo of EP
+        </title>
+    </head>
+    <body >
+        <style>
+            td{
+                font-size: large;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                font-weight: bolder;
+            }
+            body{
+                background-image: url(background1.png);
+            }
+            table{
+                
+                color: white;
+                padding-bottom: 100px;
+                padding-right: 100px;
+                padding-left: 100px;
+                border-radius: 20px;
+                padding-top: 20px;
+            }
+            button{
+                background-color: pink;
+                border: pink;
+                padding-top: 20px;
+                align-items: center;
+                padding-bottom: 20px;
+
+            }
+            input{
+                padding-right: 20px;
+            }
+        </style>
+        <h1 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color: white;">Registration</h1>
+        <form method="get">
+            <table align="center" style="background-color: lightsalmon;">
+                <tr><td>Name of a student</td><td><input type="text" name="usr"></td></tr>
+                <br>
+                <tr><td>Regno</td><td><input type="text" name="id"></td></tr>
+                <tr><td>EmailID</td><td><input type="name" name="email"></td></tr>
+                <tr><td>Favourite game</td><td><input type="checkbox" name="game">cricket<input type="checkbox" name="game">Football<input type="checkbox" name="game">chess</td>
+                    
+                    
+                </tr>
+                <tr><td>Gender</td><td><input type="radio" name="gen">Male<input type="radio" name="gen">Female<input type="radio" name="gen">Other</td></tr>
+                <tr><td>Favourite subjects</td><td>
+                    <select id="subject" name="subject" style="background-color: black;color: white;">
+                    <option value="java">java</option>
+                    <option value="C">C</option>
+                    <option value="c++">c++</option>
+                    <option value="python">Python</option>
+                  </select></td></tr>
+                <tr><td>address</td><td><textarea></textarea></td></tr>
+            <tr><td><button style="align-items: center;border-radius: 10px;padding-right: 40px;padding-left: 40px;margin-left:200px";>Register</button></td></tr>
+            </table>
+            
+        </form>
+    </body>
+</html>
